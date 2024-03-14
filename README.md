@@ -1,24 +1,43 @@
-# README
+# The Office
+ By Luiza Magalhães
+### The Office is a web interface that shows you a list off all employees and allows you to see more details about each one of then. 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Installation
+Clone this repo into your workspace
 
-Things you may want to cover:
+`$ git clone git@github.com:LuizaMagalhaes/theoffice.git`
 
-* Ruby version
+`$ cd ~/path/theoffice`
 
-* System dependencies
+And then execute:
 
-* Configuration
+`$ bundle install`
 
-* Database creation
+## Requirements
 
-* Database initialization
+Ruby v3.0
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+## Basic Usage
+Run the test suit to guarantee that is passing
 
-* Deployment instructions
+`$ rspec`
 
-* ...
+To run the web application:
+
+`$ rails s`
+
+## In your browser:
+
+**localhost:3000** 
+
+You'll see a screen* with a couple employees names as links.
+
+*The screen is still raw HTML, someday will be pretty ;)*
+
+When you click on employee's name they shall lead you to the employee profile page.
+
+#### Technologies used
+Ruby - 3.0
+
+Rails - 7.1
